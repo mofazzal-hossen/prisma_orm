@@ -1,0 +1,6 @@
+What Is Prisma ORM?
+Prisma ORM is a modern, open-source Object-Relational Mapping (ORM) tool for Node.js and TypeScript applications. It makes it easier to interact with databases using JavaScript or TypeScript instead of writing raw SQL queries every time.
+
+In simple words:
+
+Prisma allows you to communicate with your database using TypeScript or JavaScript code.
