@@ -1,0 +1,4 @@
+1. What Is Prisma's Internal Workflow?
+Prisma works as a bridge between your Node.js/TypeScript application and your database.
+
+You write TypeScript queries, Prisma processes them, PostgreSQL executes SQL, and Prisma returns the results as JavaScript objects.
