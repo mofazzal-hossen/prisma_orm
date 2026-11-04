@@ -38,3 +38,14 @@ Prisma 6	Prisma 7
 Rust-based Query Engine by default	TypeScript-based Client Engine by default
 Traditional connection setup	Driver adapter required for direct DB connections
 Older configuration approach	Updated configuration approach
+
+
+**********
+6. Key Benefits
+1. Type-safe database queries.
+2. Automatic Prisma Client generation.
+3. Less manual SQL writing.
+4. Parameterized queries for safer database access.
+5. Easy database communication.
+6. JavaScript-friendly query results.
+***********
