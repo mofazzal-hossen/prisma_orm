@@ -49,3 +49,18 @@ Older configuration approach	Updated configuration approach
 5. Easy database communication.
 6. JavaScript-friendly query results.
 ***********
+
+
+
+***********
+
+7. Interview Questions
+1. How does Prisma work internally?
+2. What is Prisma Client?
+3. What is a Query Compiler?
+4. What is a Driver Adapter?
+5. Does Prisma generate SQL queries?
+6. How does Prisma prevent SQL injection?
+7. What happens after executing prisma.user.findMany()?
+***********
+
