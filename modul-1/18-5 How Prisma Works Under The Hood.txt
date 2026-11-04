@@ -17,3 +17,16 @@ Connects to the database driver
 Executes SQL queries
 6. JavaScript Objects
 Returns results to the application
+
+
+
+
+3. Important Components
+Component	Responsibility
+Prisma Schema	Defines database models
+Code Generation	Generates Prisma Client
+Prisma Client	Accepts database queries
+Query Compiler	Processes queries
+Driver Adapter	Connects to database driver
+PostgreSQL	Executes SQL queries
+Result Mapping	Returns JavaScript objects
