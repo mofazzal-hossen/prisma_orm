@@ -64,3 +64,12 @@ Older configuration approach	Updated configuration approach
 7. What happens after executing prisma.user.findMany()?
 ***********
 
+********
+8. Remember This
+- Schema = Defines database structure.
+- Client = Sends database queries.
+- Compiler = Processes queries.
+- Adapter = Connects to database driver.
+- PostgreSQL = Executes SQL.
+- Result Mapping = Returns JavaScript objects.
+*********
