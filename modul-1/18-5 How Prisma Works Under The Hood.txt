@@ -75,7 +75,9 @@ Older configuration approach	Updated configuration approach
 *********
 
 
+const users = await prisma.user.findMany();
 
+SELECT * FROM "User";
 
 [
   {
@@ -84,5 +86,3 @@ Older configuration approach	Updated configuration approach
     email: "rahim@gmail.com"
   }
 ]
-
-const users = await prisma.user.findMany();
