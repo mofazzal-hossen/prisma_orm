@@ -73,3 +73,14 @@ Older configuration approach	Updated configuration approach
 - PostgreSQL = Executes SQL.
 - Result Mapping = Returns JavaScript objects.
 *********
+
+
+
+
+[
+  {
+    id: 1,
+    name: "Rahim",
+    email: "rahim@gmail.com"
+  }
+]
