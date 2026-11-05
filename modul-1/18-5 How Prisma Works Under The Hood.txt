@@ -84,3 +84,5 @@ Older configuration approach	Updated configuration approach
     email: "rahim@gmail.com"
   }
 ]
+
+const users = await prisma.user.findMany();
