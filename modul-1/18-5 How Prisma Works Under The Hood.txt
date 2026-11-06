@@ -75,14 +75,3 @@ Older configuration approach	Updated configuration approach
 *********
 
 
-const users = await prisma.user.findMany();
-
-SELECT * FROM "User";
-
-[
-  {
-    id: 1,
-    name: "Rahim",
-    email: "rahim@gmail.com"
-  }
-]
