@@ -1,3 +1,17 @@
 18-6: Prisma Learning Roadmap and Documentation — Summary
 1. What Is the Prisma Learning Roadmap?
 A Prisma Learning Roadmap is a step-by-step guide to learning Prisma ORM, from basic concepts to advanced database operations and real-world projects.
+
+
+
+2. Prisma Learning Roadmap
+Phase	Topics
+1. Fundamentals	Prisma ORM, benefits, ecosystem, architecture
+2. Installation	Prisma setup, TypeScript, PostgreSQL, NeonDB
+3. Prisma Schema	Models, fields, data types, constraints
+4. CRUD Operations	Create, Read, Update, Delete
+5. Relationships	One-to-One, One-to-Many, Many-to-Many
+6. Advanced Queries	Filtering, sorting, pagination, aggregation
+7. Database Management	Migrations, Studio, seeding
+8. Advanced Prisma	Transactions, raw SQL, error handling, optimization
+9. Real-World Project	Express.js REST API, authentication, authorization, deployment
