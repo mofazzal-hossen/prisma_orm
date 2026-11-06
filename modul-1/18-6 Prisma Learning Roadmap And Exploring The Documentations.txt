@@ -15,3 +15,16 @@ Phase	Topics
 7. Database Management	Migrations, Studio, seeding
 8. Advanced Prisma	Transactions, raw SQL, error handling, optimization
 9. Real-World Project	Express.js REST API, authentication, authorization, deployment
+
+
+
+
+3. Important Official Documentation
+Official website: Prisma Documentation
+
+Important sections:
+- Getting Started: Installation and setup.
+- Prisma Schema: Database models and fields.
+- Prisma Client: Database queries.
+- Prisma Migrate: Database migrations.
+- Prisma Guides: Practical tutorials.
