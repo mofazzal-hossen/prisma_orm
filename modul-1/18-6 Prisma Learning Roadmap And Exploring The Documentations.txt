@@ -28,3 +28,15 @@ Important sections:
 - Prisma Client: Database queries.
 - Prisma Migrate: Database migrations.
 - Prisma Guides: Practical tutorials.
+
+
+
+4. How to Learn Documentation
+Follow this learning process:
+1. Read the concept.
+2. Understand the syntax.
+3. Study code examples.
+4. Practice in VS Code.
+5. Modify the code.
+6. Test with PostgreSQL or NeonDB.
+7. Review errors and solutions.
