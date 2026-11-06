@@ -40,3 +40,13 @@ Follow this learning process:
 5. Modify the code.
 6. Test with PostgreSQL or NeonDB.
 7. Review errors and solutions.
+
+
+
+5. Important Learning Tips
+- Learn concepts in the correct order.
+- Practice every topic with real code.
+- Understand SQL alongside Prisma.
+- Learn TypeScript fundamentals.
+- Check documentation for your Prisma version.
+- Build projects instead of learning only theory.
