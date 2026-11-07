@@ -3,3 +3,7 @@
 cd hello-prisma
 
 
+Initialize a TypeScript project:
+npm init
+npm install typescript tsx @types/node --save-dev
+npx tsc --init
