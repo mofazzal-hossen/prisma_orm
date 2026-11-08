@@ -16,3 +16,8 @@ npx tsc --init
 Install the packages needed for this quickstart:
 npm install prisma@prev @types/pg --save-dev
 npm install @prisma/client@7 @prisma/adapter-pg pg dotenv
+
+
+
+3. Initialize Prisma
+npx prisma@prev init --datasource-provider postgresql --output ../generated/prisma
