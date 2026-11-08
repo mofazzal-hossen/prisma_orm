@@ -26,3 +26,24 @@ npx prisma@prev init --datasource-provider postgresql --output ../generated/pris
 4. Database Connection (.env)
 DATABASE_URL="YOUR_NEON_POOLED_CONNECTION_STRING"
 DIRECT_URL="YOUR_NEON_DIRECT_CONNECTION_STRING"
+
+
+5. Prisma Configuration
+prisma7.config.ts
+
+import "dotenv/config";
+import { defineConfig, env } from "prisma/config";
+
+export default defineConfig({
+  schema: "prisma/schema.prisma",
+  migrations: {
+    path: "prisma/migrations",
+  },
+  datasource: {
+    url: env("DIRECT_URL"),
+  },
+});
+
+
+
+
