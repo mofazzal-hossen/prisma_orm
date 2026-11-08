@@ -65,3 +65,14 @@ model User {
   email     String   @unique
   createdAt DateTime @default(now())
 }
+
+
+
+
+
+
+
+*************
+
+7. Database Migration & Client Generation
+npx prisma@prev migrate dev --name init
