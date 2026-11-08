@@ -21,3 +21,8 @@ npm install @prisma/client@7 @prisma/adapter-pg pg dotenv
 
 3. Initialize Prisma
 npx prisma@prev init --datasource-provider postgresql --output ../generated/prisma
+
+
+4. Database Connection (.env)
+DATABASE_URL="YOUR_NEON_POOLED_CONNECTION_STRING"
+DIRECT_URL="YOUR_NEON_DIRECT_CONNECTION_STRING"
