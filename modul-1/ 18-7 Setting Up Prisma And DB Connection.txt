@@ -142,3 +142,10 @@ async function testDatabaseConnection() {
 }
 
 testDatabaseConnection();
+
+
+
+
+
+Run:
+npx tsx src/test-db.ts
