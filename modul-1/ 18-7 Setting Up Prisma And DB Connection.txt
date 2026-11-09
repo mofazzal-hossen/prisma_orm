@@ -104,3 +104,13 @@ const prisma = new PrismaClient({
 });
 
 export default prisma;
+
+
+
+
+
+Main concept:
+- PrismaPg → PostgreSQL adapter।
+- PrismaClient → Database query করার client।
+- DATABASE_URL → Database connection string।
+- export default prisma → অন্য file-এ reuse করা যায়।
