@@ -149,3 +149,9 @@ testDatabaseConnection();
 
 Run:
 npx tsx src/test-db.ts
+
+
+
+Expected output:
+Database connected successfully!
+Users: []
