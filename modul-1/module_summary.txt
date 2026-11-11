@@ -1,0 +1,7 @@
+module summary:
+
+prisma = translator: ts/ js/->sql
+
+2. prisma is an ORM 
+3. prisma Ecosystem
+ 
