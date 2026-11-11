@@ -11,3 +11,15 @@ prisma = translator: ts/ js/->sql
 - prisma studio 
 
 5. prisma work  Under the hood 
+- prisma migrate - DB Connection - prisma client Generate - DB query is ts - translator
+
+
+
+6. prisma common terms : 
+
+- schema & model 
+- Datasource & client generator 
+- prisma client query
+- prisma studio DB GUI
+
+migrate & generator
