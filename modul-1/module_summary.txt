@@ -5,3 +5,9 @@ prisma = translator: ts/ js/->sql
 2. prisma is an ORM 
 3. prisma Ecosystem
  
+ 4. prisma cor tools 
+ - prisma client 
+- prisma migrate 
+- prisma studio 
+
+5. prisma work  Under the hood 
