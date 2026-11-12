@@ -3,3 +3,5 @@ Most Common Interview Questions
 
 Interviewers frequently pull from classic real-world systems, often categorized by their core technical challenges:
 • Web & Utility Systems: Design a URL shortener (like TinyURL), a rate limiter, a web crawler, or a key-value store.
+• Social & Messaging Apps: Design a real-time chat application (like WhatsApp), a social media news feed (like X or Instagram), or a notification system.
+• Media & Storage Platforms: Design a video streaming service (like YouTube or Netflix) or a cloud file-storage system (like Google Drive or Dropbox).
