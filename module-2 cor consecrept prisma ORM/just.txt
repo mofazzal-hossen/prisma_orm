@@ -1,0 +1,5 @@
+
+Most Common Interview Questions
+
+Interviewers frequently pull from classic real-world systems, often categorized by their core technical challenges:
+• Web & Utility Systems: Design a URL shortener (like TinyURL), a rate limiter, a web crawler, or a key-value store.

@@ -23,3 +23,8 @@ prisma = translator: ts/ js/->sql
 - prisma studio DB GUI
 
 migrate & generator
+
+
+
+
+
