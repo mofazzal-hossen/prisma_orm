@@ -6,3 +6,13 @@ Interviewers frequently pull from classic real-world systems, often categorized 
 • Social & Messaging Apps: Design a real-time chat application (like WhatsApp), a social media news feed (like X or Instagram), or a notification system.
 • Media & Storage Platforms: Design a video streaming service (like YouTube or Netflix) or a cloud file-storage system (like Google Drive or Dropbox).
 • Location & Marketplace Systems: Design a ride-hailing app (like Uber), a proximity service (like Yelp), or a ticket-booking platform (like Ticketmaster).
+
+
+# Create and apply a migration
+npx prisma migrate dev --name init
+
+# Generate Prisma Client
+npx prisma generate
+
+# Open Prisma Studio
+npx prisma studio
