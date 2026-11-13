@@ -16,3 +16,16 @@ npx prisma generate
 
 # Open Prisma Studio
 npx prisma studio
+
+
+2. Understanding Model Syntax
+Let's understand each part.
+Prisma syntax	Explanation
+model User	Defines a model named User
+id Int	Creates an integer field
+@id	Defines a primary key
+@default(autoincrement())	Automatically generates incremental IDs
+name String	Defines a string field
+@unique	Prevents duplicate values
+DateTime	Stores date and time
+@default(now())	Automatically sets the current timestamp
