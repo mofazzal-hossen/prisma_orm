@@ -29,3 +29,18 @@ name String	Defines a string field
 @unique	Prevents duplicate values
 DateTime	Stores date and time
 @default(now())	Automatically sets the current timestamp
+
+
+
+
+3. Common Prisma Data Types
+Prisma type	Description	PostgreSQL type
+String	Text	TEXT
+Int	Integer	INTEGER
+BigInt	Large integer	BIGINT
+Float	Decimal number	DOUBLE PRECISION
+Decimal	Precise decimal	DECIMAL
+Boolean	True or false	BOOLEAN
+DateTime	Date and time	TIMESTAMP
+Json	JSON data	JSONB
+Bytes	Binary data	BYTEA
