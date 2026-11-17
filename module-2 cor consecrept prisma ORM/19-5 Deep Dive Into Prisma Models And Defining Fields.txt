@@ -2,3 +2,6 @@
 Try answering these questions to test your understanding.
 1. What is a Prisma Model?
 2. What is the difference between String and String??
+3. What is the difference between @id and @unique?
+4. What is the purpose of @default()?
+5. What is the difference between @map() and @@map()?
