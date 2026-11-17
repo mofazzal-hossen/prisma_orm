@@ -1,0 +1,4 @@
+12. Practice Questions
+Try answering these questions to test your understanding.
+1. What is a Prisma Model?
+2. What is the difference between String and String??
