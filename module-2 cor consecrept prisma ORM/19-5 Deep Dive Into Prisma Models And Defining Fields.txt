@@ -16,3 +16,8 @@ Try answering these questions to test your understanding.
 1. Models represent database tables.
 2. Fields represent database columns.
 3. Prisma supports different scalar data types.
+4. ? makes fields optional.
+5. @ defines field-level attributes.
+6. @@ defines model-level attributes.
+7. @id defines primary keys.
+relation() defines relationships.
