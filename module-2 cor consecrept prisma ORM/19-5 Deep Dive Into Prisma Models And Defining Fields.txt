@@ -24,3 +24,17 @@ relation() defines relationships.
 8. @unique prevents duplicate values.
 9. @default() assigns default values.
 10. @relation() defines relationships.
+
+
+
+Remember
+
+Prisma Model = Table
+
+Prisma Field = Column
+
+@ = Field Attribute
+
+@@ = Model Attribute
+
+Prisma Schema = Database Structure
