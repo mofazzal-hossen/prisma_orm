@@ -21,3 +21,6 @@ Try answering these questions to test your understanding.
 6. @@ defines model-level attributes.
 7. @id defines primary keys.
 relation() defines relationships.
+8. @unique prevents duplicate values.
+9. @default() assigns default values.
+10. @relation() defines relationships.
