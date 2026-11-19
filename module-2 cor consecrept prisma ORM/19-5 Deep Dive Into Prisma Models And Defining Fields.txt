@@ -8,3 +8,11 @@ Try answering these questions to test your understanding.
 6. Why do we use @updatedAt?
 7. What is the difference between @ and @@?
 8. Why should we use Decimal instead of Float for financial values?
+
+
+
+
+8. Key Takeaways
+1. Models represent database tables.
+2. Fields represent database columns.
+3. Prisma supports different scalar data types.
