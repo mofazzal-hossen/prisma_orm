@@ -5,3 +5,9 @@ Prisma supports three main relationship types:
 1. One-to-One (1:1)
 2. One-to-Many (1:N)
 3. Many-to-Many (M:N)
+
+
+2. One-to-One Relationship (1:1)
+One record in a table is associated with only one record in another table.
+
+Real-world example: One user has one profile.
