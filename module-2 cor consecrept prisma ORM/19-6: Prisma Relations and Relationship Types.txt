@@ -1,0 +1,7 @@
+1. What Are Relations in Prisma?
+In Prisma ORM, Relations define how two or more database models are connected.
+
+Prisma supports three main relationship types:
+1. One-to-One (1:1)
+2. One-to-Many (1:N)
+3. Many-to-Many (M:N)
