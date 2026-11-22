@@ -11,3 +11,15 @@ Prisma supports three main relationship types:
 One record in a table is associated with only one record in another table.
 
 Real-world example: One user has one profile.
+
+
+
+
+
+***************
+O
+
+
+19-8: Prisma CRUD Operations — Quick Revision
+CRUD = Create, Read, Update, Delete
+***************
