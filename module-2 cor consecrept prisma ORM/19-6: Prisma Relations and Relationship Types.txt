@@ -33,4 +33,26 @@ Update	update()	UPDATE
 Update	updateMany()	UPDATE
 Delete	delete()	DELETE
 Delete	deleteMany()	DELETE
+
+
+
+Important Prisma Methods
+
+// CREATE
+await prisma.user.create({ data: { name: "Rahim", email: "rahim@gmail.com", password: "hashed" } });
+
+// READ
+await prisma.user.findMany();
+
+// READ ONE
+await prisma.user.findUnique({ where: { id: 1 } });
+
+// UPDATE
+await prisma.user.update({
+  where: { id: 1 },
+  data: { name: "Karim" }
+});
+
+// DELETE
+await prisma.user.delete({ where: { id: 1 } });
 ***************
