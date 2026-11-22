@@ -22,4 +22,15 @@ O
 
 19-8: Prisma CRUD Operations — Quick Revision
 CRUD = Create, Read, Update, Delete
+
+
+Operation	Prisma Method	SQL
+Create	create()	INSERT
+Read	findMany()	SELECT
+Read	findUnique()	SELECT
+Read	findFirst()	SELECT
+Update	update()	UPDATE
+Update	updateMany()	UPDATE
+Delete	delete()	DELETE
+Delete	deleteMany()	DELETE
 ***************
