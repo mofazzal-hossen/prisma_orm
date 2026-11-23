@@ -55,4 +55,12 @@ await prisma.user.update({
 
 // DELETE
 await prisma.user.delete({ where: { id: 1 } });
+
+Important Query Options
+- where → Filter records.
+- select → Select specific fields.
+- include → Retrieve related records.
+- orderBy → Sort records.
+- skip → Skip records.
+- take → Limit records.
 ***************
