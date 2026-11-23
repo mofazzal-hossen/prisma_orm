@@ -63,4 +63,16 @@ Important Query Options
 - orderBy → Sort records.
 - skip → Skip records.
 - take → Limit records.
+
+
+CRUD Architecture
+Express API
+
+Controller
+
+Service
+
+Prisma Client
+
+PostgreSQL Database
 ***************
