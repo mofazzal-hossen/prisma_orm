@@ -75,4 +75,14 @@ Service
 Prisma Client
 
 PostgreSQL Database
+
+
+
+Key Takeaways
+1. Prisma Client communicates with the database.
+2. CRUD operations manage database records.
+3. where is used for filtering.
+4. select helps retrieve specific fields.
+5. include helps retrieve relational data.
+6. Always validate input and handle database errors.
 ***************
