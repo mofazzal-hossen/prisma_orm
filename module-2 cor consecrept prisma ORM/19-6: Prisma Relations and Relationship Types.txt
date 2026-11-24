@@ -116,11 +116,20 @@ const issues = await prisma.issue.findMany({
 
 
 
-
+Sorting:
 
 const issues = await prisma.issue.findMany({
   orderBy: {
     createdAt: "desc",
   },
+});
+
+Pagination: 
+const page = 1;
+const limit = 10;
+
+const issues = await prisma.issue.findMany({
+  skip: (page - 1) * limit,
+  take: limit,
 });
 ****************
