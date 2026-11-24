@@ -142,4 +142,16 @@ const issues = await prisma.issue.findMany({
     reporter: true,
   },
 });
+
+
+
+Select Specific Fields:
+
+const users = await prisma.user.findMany({
+  select: {
+    id: true,
+    name: true,
+    email: true,
+  },
+});
 ****************
