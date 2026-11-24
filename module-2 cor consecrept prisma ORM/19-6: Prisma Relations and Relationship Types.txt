@@ -103,4 +103,14 @@ Relations	include	Related data আনা
 Field Selection	select	নির্দিষ্ট fields আনা
 Counting	count()	মোট record গণনা
 Cursor Pagination	cursor	Cursor দিয়ে pagination
+
+
+
+2. Important Code Examples
+Filtering
+const issues = await prisma.issue.findMany({
+  where: {
+    status: "open",
+  },
+});
 ****************
