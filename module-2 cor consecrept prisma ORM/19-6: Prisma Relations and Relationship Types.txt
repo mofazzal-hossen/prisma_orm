@@ -113,4 +113,14 @@ const issues = await prisma.issue.findMany({
     status: "open",
   },
 });
+
+
+
+
+
+const issues = await prisma.issue.findMany({
+  orderBy: {
+    createdAt: "desc",
+  },
+});
 ****************
