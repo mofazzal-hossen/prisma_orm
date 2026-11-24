@@ -86,3 +86,21 @@ Key Takeaways
 5. include helps retrieve relational data.
 6. Always validate input and handle database errors.
 ***************
+
+
+
+
+
+****************
+19-9 – Advanced Prisma Queries: Summary
+
+1. Important Concepts
+Concept	Prisma Syntax	কাজ
+Filtering	where	নির্দিষ্ট শর্তে data খোঁজা
+Sorting	orderBy	Data সাজানো
+Pagination	skip, take	Page অনুযায়ী data দেখানো
+Relations	include	Related data আনা
+Field Selection	select	নির্দিষ্ট fields আনা
+Counting	count()	মোট record গণনা
+Cursor Pagination	cursor	Cursor দিয়ে pagination
+****************
