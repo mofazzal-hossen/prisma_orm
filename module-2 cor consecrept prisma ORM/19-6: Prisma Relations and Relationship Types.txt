@@ -186,4 +186,18 @@ NOT	Condition-এর বিপরীত
 - select → শুধু প্রয়োজনীয় fields নিয়ে আসে।
 - include → মূল record-এর সঙ্গে related data নিয়ে আসে।
 - একই query level-এ select এবং include একসঙ্গে ব্যবহার করা যায় না।
+
+
+
+
+
+
+5. Real-World Application
+Issue Forge project-এ:
+- Search → where
+- Filter by status → where
+- Latest issues first → orderBy
+- Page navigation → skip + take
+- Reporter information → include
+- Total issues → count()
 ****************
