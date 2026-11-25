@@ -163,4 +163,20 @@ const totalIssues = await prisma.issue.count({
     status: "open",
   },
 });
+
+
+3. Filtering Operators: 
+Operator	কাজ
+equals	সমান
+not	সমান নয়
+in	তালিকার মধ্যে
+contains	Text খুঁজে
+startsWith	শুরুতে থাকা
+gt	বড়
+gte	বড় বা সমান
+lt	ছোট
+lte	ছোট বা সমান
+AND	সব condition সত্য
+OR	যেকোনো একটি সত্য
+NOT	Condition-এর বিপরীত
 ****************
