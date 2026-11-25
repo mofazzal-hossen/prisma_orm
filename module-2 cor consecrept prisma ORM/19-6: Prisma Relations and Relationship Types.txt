@@ -179,4 +179,11 @@ lte	ছোট বা সমান
 AND	সব condition সত্য
 OR	যেকোনো একটি সত্য
 NOT	Condition-এর বিপরীত
+
+
+
+4. select vs include
+- select → শুধু প্রয়োজনীয় fields নিয়ে আসে।
+- include → মূল record-এর সঙ্গে related data নিয়ে আসে।
+- একই query level-এ select এবং include একসঙ্গে ব্যবহার করা যায় না।
 ****************
