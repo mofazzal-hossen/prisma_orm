@@ -200,4 +200,15 @@ Issue Forge project-এ:
 - Page navigation → skip + take
 - Reporter information → include
 - Total issues → count()
+
+
+
+
+6. মনে রাখার বিষয়
+1. findMany() একাধিক records খুঁজে বের করে।
+2. where দিয়ে filtering করা হয়।
+3. orderBy দিয়ে sorting করা হয়।
+4. skip এবং take দিয়ে pagination তৈরি হয়।
+5. include দিয়ে relational data পাওয়া যায়।
+6. select দিয়ে নির্দিষ্ট fields নির্বাচন করা হয়।
 ****************
