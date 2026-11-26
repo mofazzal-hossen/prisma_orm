@@ -211,4 +211,17 @@ Issue Forge project-এ:
 4. skip এবং take দিয়ে pagination তৈরি হয়।
 5. include দিয়ে relational data পাওয়া যায়।
 6. select দিয়ে নির্দিষ্ট fields নির্বাচন করা হয়।
+
+
+
+
+Complete Query Flow
+Prisma Query
+
+Filtering
+Sorting
+Pagination
+Relations
+
+Database Results
 ****************
