@@ -225,3 +225,22 @@ Relations
 
 Database Results
 ****************
+
+
+
+***************
+19-10 – Prisma Aggregation, GroupBy, and Raw Queries: Summary
+
+1. Important Concepts
+Concept	Prisma Method	কাজ
+Aggregation	aggregate()	Statistical summary বের করা
+Count	_count	মোট record গণনা
+Sum	_sum	যোগফল বের করা
+Average	_avg	গড় বের করা
+Minimum	_min	সর্বনিম্ন value
+Maximum	_max	সর্বোচ্চ value
+Grouping	groupBy()	একই ধরনের data group করা
+Group Filtering	having	Group-এর উপর condition
+Raw Query	$queryRaw	সরাসরি SQL দিয়ে data আনা
+Execute SQL	$executeRaw	SQL দিয়ে data পরিবর্তন
+***************
