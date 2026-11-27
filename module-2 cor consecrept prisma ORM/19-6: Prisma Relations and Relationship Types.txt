@@ -300,4 +300,12 @@ const result = await prisma.issue.groupBy({
     },
   },
 });
+
+
+Raw Query:
+
+const issues = await prisma.$queryRaw`
+  SELECT * FROM "Issue"
+  WHERE status = 'open'
+`;
 ***************
