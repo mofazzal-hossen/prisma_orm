@@ -243,4 +243,29 @@ Grouping	groupBy()	একই ধরনের data group করা
 Group Filtering	having	Group-এর উপর condition
 Raw Query	$queryRaw	সরাসরি SQL দিয়ে data আনা
 Execute SQL	$executeRaw	SQL দিয়ে data পরিবর্তন
+
+
+
+
+
+
+
+2. Important Code Examples:
+Aggregation
+
+
+const result = await prisma.issue.aggregate({
+  _count: {
+    id: true,
+  },
+  _avg: {
+    priority: true,
+  },
+  _max: {
+    priority: true,
+  },
+  _min: {
+    priority: true,
+  },
+});
 ***************
