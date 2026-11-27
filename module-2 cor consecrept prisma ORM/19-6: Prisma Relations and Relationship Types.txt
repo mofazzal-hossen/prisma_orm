@@ -308,4 +308,13 @@ const issues = await prisma.$queryRaw`
   SELECT * FROM "Issue"
   WHERE status = 'open'
 `;
+
+
+
+Execute Raw SQL: 
+const result = await prisma.$executeRaw`
+  UPDATE "Issue"
+  SET status = 'resolved'
+  WHERE id = 1
+`;
 ***************
